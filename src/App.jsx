@@ -1,7 +1,7 @@
-import Login from "./Components/Login"
-import Home from "./Components/Home"
-import Dashboard from "./Components/Dashboard"
-import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Login from "./Components/Login";
+import Home from "./Components/Home";
+import Dashboard from "./Components/Dashboard";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   <BrowserRouter>
     <Routes>
@@ -9,6 +9,6 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter>;
 }
-
+export default App;
