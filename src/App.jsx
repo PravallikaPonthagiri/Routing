@@ -3,12 +3,8 @@ import Home from "./Components/Home";
 import Dashboard from "./Components/Dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-    </Routes>
-  </BrowserRouter>;
+  <return>
+    <h1> Welcome to my website</h1>
+  </return>;
 }
 export default App;
